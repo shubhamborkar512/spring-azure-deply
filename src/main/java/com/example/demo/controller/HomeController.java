@@ -10,6 +10,6 @@ public class HomeController {
 	
 	@GetMapping("/get")
 	public String message() {
-		return "Om Sai Ram";
+		return "Om Sai Ram Sai Hm tere divane";
 	}
 }

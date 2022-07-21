@@ -36,6 +36,7 @@ public class HomeController {
 	
 	@GetMapping("/getAll")
 	public ResponseEntity<List<Student>> getAll() {
+		
 		return new ResponseEntity(service.findAll(),HttpStatus.OK);
 	}
 }
